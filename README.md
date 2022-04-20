@@ -12,13 +12,13 @@ https://cloud.google.com/iam/docs/creating-managing-service-account-keys#creatin
 
 - pub/sub 편집, BigQuery 편집 권한 부여
 
-![](images\ser-1.png)
+![](./images\ser-1.png)
 
 
 
 - 권한 확인
 
-![](images\ser-2.png)
+![](./images\ser-2.png)
 
 
 
@@ -26,7 +26,7 @@ https://cloud.google.com/iam/docs/creating-managing-service-account-keys#creatin
 
 ## 1. 프로젝트 개요
 
-![](images\개요.png) 
+![](./images\개요.png) 
 
 ##### - 트위터에서 스트리밍 데이터를 받아 빅쿼리에 DW를 구축하고 시각화 해본다.
 
@@ -44,7 +44,7 @@ https://docs.tweepy.org/ko/v3.9.0/getting_started.html
 
 https://developer.twitter.com/en
 
-<img src="images\apikey.png" style="zoom:50%;" /> 
+<img src="./images\apikey.png" style="zoom:50%;" /> 
 
 
 
@@ -60,19 +60,19 @@ https://developer.twitter.com/en
 
 ##### 1) pub 만들기
 
-![](images\pub-1.png)
+![](./images/pub-1.png)
 
 ##### 2) sub 만들어 구독하기
 
 
 
-<img src="images/sub-1.png" style="zoom:67%;" /> 
+<img src="./images/sub-1.png" style="zoom:67%;" /> 
 
 
 
 - 메시지 확인 
 
-- <img src="images\sub-2.png" style="zoom:67%;" /> 
+- <img src="./images\sub-2.png" style="zoom:67%;" /> 
 
    
 
@@ -84,13 +84,13 @@ https://developer.twitter.com/en
 
 ##### 1) 트리거 등록
 
-​	<img src="images\cf-1.png" style="zoom:50%;" />
+​	<img src="./images\cf-1.png" style="zoom:50%;" />
 
 
 
 ##### 2) 함수 만들기
 
-​	<img src="images/cf-2.png" style="zoom:50%;" />
+​	<img src="./images/cf-2.png" style="zoom:50%;" />
 
 
 
@@ -104,11 +104,11 @@ https://developer.twitter.com/en
 
 ##### 1) 미리보기
 
-<img src="images/big-1.png" style="zoom:80%;" />
+<img src="./images/big-1.png" style="zoom:80%;" />
 
 ##### 2) 데이터 갯수 세기
 
-<img src="images\big-2.png" style="zoom:80%;" />
+<img src="./images\big-2.png" style="zoom:80%;" />
 
 ### 6. DataStudio
 
@@ -116,11 +116,11 @@ https://developer.twitter.com/en
 
 ##### 1) BigQuery와 연결
 
-![](images\datastudio-1.png)
+![](./images\datastudio-1.png)
 
 ##### 2) 가장 많이 RT된 데이터, 시간 별 Record 갯수
 
-![](images/datastudio-2.png)
+![](./images/datastudio-2.png)
 
 
 
@@ -152,15 +152,15 @@ docker push gcr.io/[project_name]/tweet
 
 ##### - Container Registry
 
-![](images\cr-1.png)
+![](./images\cr-1.png)
 
 ##### - kubernetes 
 
-![](images\ku-1.png)
+![](./images\ku-1.png)
 
-![](images\ku-2.png)
+![](./images\ku-2.png)
 
-![](images\ku-3.png)
+![](./images\ku-3.png)
 
 
 
