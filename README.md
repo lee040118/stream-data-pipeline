@@ -18,7 +18,7 @@ https://cloud.google.com/iam/docs/creating-managing-service-account-keys#creatin
 
 - 권한 확인
 
-![](./images\ser-2.png)
+![](./images/ser-2.png)
 
 
 
